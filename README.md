@@ -24,3 +24,8 @@ Criar a View
 ```
 php artisan make:view users/create
 ```
+
+Criar tabelas no banco de dados
+```
+php artisan migrate
+```

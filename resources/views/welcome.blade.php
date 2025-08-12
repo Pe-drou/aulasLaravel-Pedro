@@ -14,9 +14,9 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="container d-flex flex-column align-items-center justify-content-center bg-info-subtle border border-primary mt-5 p-0 rounded-2" style="height:50vh; width: 30vw;">
+        <div class="container d-flex flex-column align-items-center justify-content-between bg-info-subtle border border-primary p-0 rounded-2" style="height:35h; width: 30vw; margin-top: 10%;">
         <h1 class="mb-4 text-light bg-primary w-100 text-center py-1">Hello world!</h1>
-        <a href="{{ route('user-create') }}" class="btn btn-primary" role="button">Cadastrar</a>
+        <a href="{{ route('user-create') }}" class="btn btn-primary mb-4" role="button">Cadastrar</a>
         </div>
     </body>
 </html>
